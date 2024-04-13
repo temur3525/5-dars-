@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scrollbar-width: none;
+}
+.box {
+    width: 80px;
+    height: 100vh;
+    background-color: blue;
+    margin-left: -100px;
+    transition: .5s;
+}
+
+
+.fa-bars {
+    display: none;
+    font-size: 25px;
+    
+}
+.fa-bars:hover{
+color: dodgerblue;
+cursor: pointer;
+
+}
+
+.fa-x{
+    cursor: pointer;
+    margin-left: 100px;
+    position: relative;
+    top: 20px;
+    
+}
+.fa-x:hover{
+    cursor: pointer;
+    color: dodgerblue;
+}
+.fa-fire{
+    font-size: 30px;
+    color: white;
+    position: relative;
+  margin-top: 20px;
+    left: 22px;
+    transition:.5s;
+}
+.tem{
+    width: 7px;
+    height: 50px;
+    position:absolute;
+    top: 25px;
+    background-color: white;
+ display: none;
+
+}
+.fa-fire:hover+.tem{
+    display: block;
+
+}
+
+.fa-fire:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition:.5s;
+ 
+}
+
+.fa-compass{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 80px;
+    left: -11px;
+    transition:.5s;
+}
+.tem1{
+    width: 7px;
+    height: 50px;
+position:absolute;
+top: 103px;
+    background-color: white;
+ display: none;
+
+}
+.fa-compass:hover+.tem1{
+    display: block;
+
+}
+
+.fa-compass:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition:.5s;
+}
+.fa-house-flag{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 18px;
+    top: 145px;
+    transition:.5s;
+}
+.tem2{
+    width: 7px;
+    height: 50px;
+position:absolute;
+top: 200px;
+    background-color: white;
+ display: none;
+
+}
+.fa-house-flag:hover+.tem2{
+    display: block;
+
+}
+.fa-house-flag:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition:.5s;
+}
+.fa-hourglass-start{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 250px;
+    left: -18px;
+    transition:.5s;
+}
+.tem3{
+    width: 7px;
+    height: 50px;
+position:absolute;
+top: 305px;
+    background-color: white;
+ display: none;
+
+}
+.fa-hourglass-start:hover+.tem3{
+    display: block;
+
+}
+.fa-hourglass-start:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition:.5s;
+}
+.fa-hotel{
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    position: relative;
+    top: 290px;
+    left: 21px;
+    transition:.5s;
+}
+.tem4{
+    width: 7px;
+    height: 50px;
+position:absolute;
+top: 395px;
+    background-color: white;
+ display: none;
+
+}
+.fa-hotel:hover+.tem4{
+    display: block;
+
+}
+.fa-hotel:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition:.5s;
+}
+.fa-hotdog{
+    font-size: 30px;
+    margin-top: 10px;
+    position: relative;
+    top: 390px;
+    left: -14px;
+    color: white;
+    transition:.5s;
+}
+.tem5{
+    width: 7px;
+    height: 50px;
+position:absolute;
+top: 495px;
+    background-color: white;
+ display: none;
+
+}
+.fa-hotdog:hover+.tem5{
+    display: block;
+
+}
+.fa-hotdog:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition:.5s;
+}
+.fa-coins{
+    font-size: 30px;
+    margin-top: 10px;
+    position: relative;
+    top: 440px;
+    left: 19px;
+    color: white;
+    transition:.5s;
+}
+.tem6{
+    width: 7px;
+    height: 50px;
+position:absolute;
+top: 585px;
+    background-color: white;
+ display: none;
+
+}
+.fa-coins:hover+.tem6{
+    display: block;
+
+}
+.fa-coins:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition:.5s;
+  
+
+}
+.bi-fire{
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: 525px;
+    left: -15px;
+    transition:.5s;
+}
+.tem7{
+    width: 7px;
+    height: 50px;
+position:absolute;
+top: 672px;
+    background-color: white;
+ display: none;
+
+}
+.bi-fire:hover+.tem7{
+    display: block;
+
+}
+.bi-fire:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition:.5s;
+   
+    
+}
+.box1{
+    position: relative;
+    top: -700px;
+    left: 100px;
+}
